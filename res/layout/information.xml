@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <!-- email -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_gravity="center_horizontal">
+        <TextView 
+            android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/emial_txt"/>
+        <EditText android:id="@+id/emailEdt"
+            android:inputType="textEmailAddress"
+            android:layout_width="200dp"
+    		android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- rut -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_gravity="center_horizontal">
+        <TextView 
+            android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/rut_txt"/>
+        <EditText android:id="@+id/rutEdt"
+            android:inputType="text"
+            android:layout_width="200dp"
+    		android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- region -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_gravity="center_horizontal">
+        <TextView 
+            android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/region_txt"/>
+        <EditText android:id="@+id/regionEdt"
+            android:inputType="text"
+            android:layout_width="200dp"
+    		android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- ciudad -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_gravity="center_horizontal">
+        <TextView 
+            android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/ciudad_txt"/>
+        <Spinner android:id="@+id/ciudadSp"
+            android:layout_width="200dp"
+    		android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- colegio -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_gravity="center_horizontal">
+        <TextView 
+            android:layout_width="50dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/colegio_txt"/>
+        <Spinner android:id="@+id/colegioSp"
+            android:layout_width="200dp"
+    		android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- 确定按钮 -->
+    <Button android:id="@+id/accoutOkBtn"
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/accout_ok_txt"
+    		android:layout_gravity="center_horizontal"/>
+</LinearLayout>    

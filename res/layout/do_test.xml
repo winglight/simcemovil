@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <!-- 按钮 -->
+    <TableLayout 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+        <TableRow 
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+            <TextView android:id="@+id/backBtn"
+                android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:background="#888888"
+	    		android:text="@string/back"
+	    		android:layout_weight="1"
+	    		android:gravity="center"/>
+            <!-- 分隔线 -->
+	       <ImageView 
+	            android:layout_width="2dp"
+	            android:layout_height="fill_parent"
+	            android:background="@drawable/tool_sep"/>
+            <TextView android:id="@+id/nextBtn"
+                android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:background="#888888"
+	    		android:text="@string/next"
+	    		android:layout_weight="1"
+	    		android:gravity="center"/>
+            <!-- 分隔线 -->
+	       <ImageView 
+	            android:layout_width="2dp"
+	            android:layout_height="fill_parent"
+	            android:background="@drawable/tool_sep"/>
+            <TextView android:id="@+id/closeBtn"
+                android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:background="#888888"
+	    		android:text="@string/close"
+	    		android:layout_weight="1"
+	    		android:gravity="center"/>
+            <!-- 分隔线 -->
+	       <ImageView 
+	            android:layout_width="2dp"
+	            android:layout_height="fill_parent"
+	            android:background="@drawable/tool_sep"/>
+            <TextView android:id="@+id/submitBtn"
+                android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:background="#888888"
+	    		android:text="@string/submit"
+	    		android:layout_weight="1"
+	    		android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+    <!-- 题目部分 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+        <!-- 题目 -->
+        <TextView android:id="@+id/questionTitleTxt"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"/>
+        <!-- 题目图片 -->
+        <ImageView android:id="@+id/questionImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <!-- 答案选择 -->
+         <RadioGroup android:id="@+id/answerRadioGroup"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+           <!-- <RadioButton android:id="@+id/answerRadioBtn1"
+                android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/answerRadioBtn2"
+                android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/answerRadioBtn3"
+                android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/answerRadioBtn4"
+                android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"/> -->
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>    

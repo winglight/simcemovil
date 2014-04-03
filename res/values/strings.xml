@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="emial_txt">Email:</string>
+    <string name="rut_txt">rut:</string>
+    <string name="region_txt">region:</string>
+    <string name="ciudad_txt">ciudad:</string>
+    <string name="colegio_txt">colegio:</string>
+    <string name="accout_ok_txt">ok</string>
+    <string name="aboutus_ok_txt">Start Quiz</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="sent_button_text">Send/Save</string>
+    <string name="right_answer">(right answer)</string>
+    <string name="data_loading">正在下载数据，请稍候</string>
+    <string name="update_data_succeed">下载数据成功</string>
+    <string name="update_data_failed">下载数据失败，程序自动退出</string>
+    <string name="network_exception">无法连接网络，请检查网络</string>
+    <string name="warm_prompt">温馨提示</string>
+    <string name="exit_warm">确定退出程序？</string>
+    <string name="sure">Yes</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="app_name">SimceMovil_Naturaleza4B</string>
+    <string name="app_description">Examen tipo Simce Naturaleza 4to Básico</string>
+    
+    <string name="randomQuestionCount">14</string>
+    <string name="subject">nat</string>
+
+</resources>

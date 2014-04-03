@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <!-- 按钮 -->
+    <TableLayout 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+        <TableRow 
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+            <TextView android:id="@+id/backForCheckBtn"
+                android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:background="#888888"
+	    		android:text="@string/back"
+	    		android:layout_weight="1"
+	    		android:gravity="center"/>
+            <!-- 分隔线 -->
+	       <ImageView 
+	            android:layout_width="2dp"
+	            android:layout_height="fill_parent"
+	            android:background="@drawable/tool_sep"/>
+            <TextView android:id="@+id/nextForCheckBtn"
+                android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:background="#888888"
+	    		android:text="@string/next"
+	    		android:layout_weight="1"
+	    		android:gravity="center"/>
+            <!-- 分隔线 -->
+	       <ImageView 
+	            android:layout_width="2dp"
+	            android:layout_height="fill_parent"
+	            android:background="@drawable/tool_sep"/>
+            <TextView android:id="@+id/closeForCheckBtn"
+                android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:background="#888888"
+	    		android:text="@string/close"
+	    		android:layout_weight="1"
+	    		android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+    <!-- 题目部分 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+        <!-- 题目 -->
+        <TextView android:id="@+id/questionTitleForCheckTxt"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"/>
+        <!-- 答案选择 -->
+        <RadioGroup android:id="@+id/answerForCheckRadioGroup"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+            <!--<LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal">
+	            <RadioButton android:id="@+id/answerForCheckRadioBtn1"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:enabled="false"/>
+	            <TextView android:id="@+id/rightAnswerTxt1"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:text="@string/right_answer"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal">
+	            <RadioButton android:id="@+id/answerForCheckRadioBtn2"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:enabled="false"/>
+	            <TextView android:id="@+id/rightAnswerTxt2"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:text="@string/right_answer"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal">
+	            <RadioButton android:id="@+id/answerForCheckRadioBtn3"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:enabled="false"/>
+	            <TextView android:id="@+id/rightAnswerTxt3"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:text="@string/right_answer"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal">
+	            <RadioButton android:id="@+id/answerForCheckRadioBtn4"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:enabled="false"/>
+	            <TextView android:id="@+id/rightAnswerTxt4"
+	                android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"
+		    		android:text="@string/right_answer"/>
+            </LinearLayout>!-->
+        </RadioGroup>
+        <!-- 题目解析 -->
+        <LinearLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="200dp"
+	    	android:background="#888888"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="10dp"
+	    	android:layout_marginTop="10dp"
+	    	android:layout_marginBottom="10dp">
+	        <TextView android:id="@+id/explainationTxt"
+	            android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>    
+</ScrollView>
